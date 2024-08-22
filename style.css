@@ -830,12 +830,15 @@ h2 {
     display: flex;
     flex-direction: row; /* Stacks contact items vertically */
     gap: 5rem; /* Adds space between each contact item */
+    align-items: center;
+    justify-content: center; /* Centers the contact items horizontally */
 }
 
 .contacts > div {
     display: flex;
-    align-items: center; /* Aligns items vertically in the center */
+    align-items: flex-start;
     left: 10rem;
+    
 }
 
 
@@ -1075,6 +1078,14 @@ h2 {
         top: 100%;
 
     }
+    .contacts{
+        gap:1rem;
+
+    }
+    .contacts > div {
+        flex-direction: column; /* Stacks heading and content vertically */
+        align-items: flex-start; /* Aligns items to the start */
+    }
     .home{
         grid-template-columns: 1fr;
     }
@@ -1120,7 +1131,19 @@ h2 {
       width: 90%;
       margin-bottom: 1px;
     }
+    .port-content{
+        margin-right: 3rem;
+    }
     
+    .contacts span{
+        gap:0.1rem;
+        font-size: .9rem;
+
+    }
+    .contacts > div {
+        flex-direction: column; /* Stacks heading and content vertically */
+        align-items: flex-start; /* Aligns items to the start */
+    }
     .navlist a{
         display: block;
         padding-bottom: .5rem;
@@ -1128,9 +1151,10 @@ h2 {
     }
     section{
         width: 100%;
+        margin: 0 1rem 0 0;
     }
     footer p{
-        font-size: .7rem;
+        font-size: .9rem;
     }
     .filter-buttons .btn{
         font-size: .8rem;
