@@ -1073,7 +1073,8 @@ footer a i{
 
 @media(max-width:420px){
     body{
-        position: absolute;
+        position: fixed !important;
+        width: 420px;
     }
     html{
         font-size: 80%;
