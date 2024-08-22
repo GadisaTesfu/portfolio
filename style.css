@@ -12,7 +12,7 @@
     --hover-color:#F4941C;
     --bg-color:#000000;
     --secon-bg-color:#292e33;
-    --big-font:2.5rem;
+    --big-font:1.5rem;
     --norma-font:2rem;
     --neon-box-shadow:0 0 .5rem #12f7ff;
     --h2-font:3rem;
@@ -134,13 +134,13 @@ section{
     max-width: 600px;
 }
 
-.home-content h1{
+.home-content h2{
     font-size: var(--big-font);
     font-weight: 700;
 }
 
 .change-text{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 600;
 }
 
