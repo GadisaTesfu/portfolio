@@ -1073,8 +1073,10 @@ footer a i{
 
 @media(max-width:420px){
     body{
-        position: relative !important;
-        width: 420px;
+        position: relative;
+        width: 100%; /* Ensures body takes up full width of viewport */
+        overflow-x: hidden; /* Prevents horizontal scrolling */
+        max-width: 100vw; 
     }
     html{
         font-size: 80%;
