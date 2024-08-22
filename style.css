@@ -1071,8 +1071,11 @@ footer a i{
     html{
         font-size: 80%;
     }
+    navlist{
+      padding: 0;
+    }
     footer p{
-        font-size: .6rem;
+        font-size: .7rem;
     }
     .filter-buttons .btn{
         font-size: .8rem;
