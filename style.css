@@ -1073,7 +1073,7 @@ footer a i{
 
 @media(max-width:420px){
     body{
-        position: fixed !important;
+        position: relative !important;
         width: 420px;
     }
     html{
