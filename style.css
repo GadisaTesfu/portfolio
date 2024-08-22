@@ -366,6 +366,9 @@ a.btn:nth-child(2)::before{
     color: #fdfdfdfd;
     font-weight: 300;
     margin-bottom: 1.5rem;
+    text-align: justify;
+    padding: 1px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .info-about1,
