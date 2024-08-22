@@ -8,7 +8,8 @@
 }
 :root{
     --text-color:#f5f5f5;
-    --hover-color:#12f7ff;
+    --hover-colors:#12f7ff;
+    --hover-color:#F4941C;
     --bg-color:#000000;
     --secon-bg-color:#292e33;
     --big-font:2.5rem;
@@ -544,7 +545,7 @@ a.btn:nth-child(2)::before{
     height: 10px;
     position: absolute;
     left: 0;
-    background: var(--hover-color);
+    background: var(--hover-colors);
     border-radius: 25px;
     box-shadow: var(--neon-box-shadow);
 }
@@ -945,7 +946,7 @@ footer a i{
         box-shadow: none;
     }
     100%{
-        background: var(--hover-color);
+        background: var(--hover-colors);
         box-shadow: var(--neon-box-shadow);
     }
 }
