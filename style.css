@@ -1155,7 +1155,8 @@ h2 {
     .navlist a{
         display: block;
         padding-bottom: .5rem;
-        font-size: 1rem;
+        padding:1.1rem;
+        font-size: 1.1rem;
     }
     section{
         width: 100%;
