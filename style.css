@@ -134,7 +134,7 @@ section{
     max-width: 600px;
 }
 
-.home-content h2{
+.home-content h1{
     font-size: var(--big-font);
     font-weight: 700;
 }
