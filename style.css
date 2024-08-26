@@ -1141,7 +1141,7 @@ h2 {
       margin-bottom: 1px;
       justify-content: flex-start; /* Align links after the logo */
       flex-grow: 1;
-      margin-left: 4rem; 
+      margin-left: 3.9rem; 
     }
     .port-content{
         margin-right: 3rem;
@@ -1160,7 +1160,7 @@ h2 {
         display: block;
         padding-bottom: .5rem;
         padding:0.7rem;
-        font-size: 1.3rem;
+        font-size: 1.1rem;
     }
     section{
         width: 100%;
