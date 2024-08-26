@@ -69,6 +69,7 @@ header.sticky{
     font-size: 26px;
     font-weight: 700;
     letter-spacing: 1px;
+    z-index: 1100;
 }
 
 span{
@@ -1135,9 +1136,12 @@ h2 {
         font-size: 80%;
     }
     .navlist{
-      padding: 0;
+      /* padding: 0; */
       width: 90%;
       margin-bottom: 1px;
+      justify-content: flex-start; /* Align links after the logo */
+      flex-grow: 1;
+      margin-left: 2.7rem; 
     }
     .port-content{
         margin-right: 3rem;
@@ -1155,7 +1159,7 @@ h2 {
     .navlist a{
         display: block;
         padding-bottom: .5rem;
-        padding:1.1rem;
+        padding:0.7rem;
         font-size: 1.1rem;
     }
     section{
@@ -1178,5 +1182,9 @@ h2 {
     }
     .img-about{
         font-size: 1rem;
+    }
+    .logo{
+        margin-left: -30px !important;
+        width: 35px !important;
     }
 }
