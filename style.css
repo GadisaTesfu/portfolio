@@ -778,7 +778,7 @@ footer{
 }
 
 footer p{
-    color: whitesmoke;
+    color: var(--text-color);
 }
 
 footer a{
