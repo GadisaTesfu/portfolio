@@ -313,7 +313,7 @@ a.btn:nth-child(2)::before{
 .img-box img{
     width: 100%;
     max-width: 350px;
-    
+  
 }
 
 .liquid-shape{
@@ -396,7 +396,7 @@ a.btn:nth-child(2)::before{
 }
 
 .info-about2{
-    left: 76%;
+    left: 66%;
     top: 15%;
 }
 
