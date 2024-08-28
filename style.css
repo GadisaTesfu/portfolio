@@ -697,7 +697,7 @@ a.btn:nth-child(2)::before{
     position: relative;
     border-radius: 15px;
     overflow: hidden;
-    background: #292e33;
+    background: var(--hover-color);
     display: flex;
     grid-template-rows:1fr auto;
     align-items: center;
