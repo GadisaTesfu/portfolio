@@ -8,8 +8,8 @@
 }
 :root{
     --text-color:#000000;
-    --hover-colors:#F4941C;
-    --hover-color:#F4941C;
+    --hover-colors:#aa640f;
+    --hover-color:#91560e;
     --bg-color:#F8F6F1;
     --p-color:var(--text-color);
     --secon-bg-color:#F1EEE4;
@@ -17,14 +17,15 @@
     --norma-font:2rem;
     --neon-box-shadow:0 0 .5rem #b5874f;
     --h2-font:3rem;
-    --font-neon-text-shadow:0 0 10px rgba(18,247,255,0.3),
-    0 0 20px rgba(18,247,255,0.3),
-    0 0 30px rgba(18,247,255,0.3),
-    0 0 40px rgba(18,247,255,0.3),
-    0 0 70px rgba(18,247,255,0.3),
-    0 0 80px rgba(18,247,255,0.3),
-    0 0 100px rgba(18,247,255,0.3),
-    0 0 150px rgba(18,247,255,0.3);
+    --font-neon-text-shadow: 0 0 10px rgba(255, 165, 0, 0.3),
+    0 0 20px rgba(255, 165, 0, 0.3),
+    0 0 30px rgba(255, 165, 0, 0.3),
+    0 0 40px rgba(255, 165, 0, 0.3),
+    0 0 70px rgba(255, 165, 0, 0.3),
+    0 0 80px rgba(255, 165, 0, 0.3),
+    0 0 100px rgba(255, 165, 0, 0.3),
+    0 0 150px rgba(255, 165, 0, 0.3);
+
     
 }
 
@@ -93,14 +94,14 @@ span{
 
 .navlist a:hover{
     color: var(--hover-color);
-    text-shadow: 0 0 10px rgba(18,247,255,0.6),
-    0 0 20px rgba(18,247,255,0.6),
-    0 0 30px rgba(18,247,255,0.6),
-    0 0 40px rgba(18,247,255,0.6),
-    0 0 70px rgba(18,247,255,0.6),
-    0 0 80px rgba(18,247,255,0.6),
-    0 0 100px rgba(18,247,255,0.6),
-    0 0 150px rgba(18,247,255,0.6);
+    text-shadow: 0 0 10px rgba(255, 165, 0, 0.3),
+    0 0 20px rgba(255, 165, 0, 0.3),
+    0 0 30px rgba(255, 165, 0, 0.3),
+    0 0 40px rgba(255, 165, 0, 0.3),
+    0 0 70px rgba(255, 165, 0, 0.3),
+    0 0 80px rgba(255, 165, 0, 0.3),
+    0 0 100px rgba(255, 165, 0, 0.3),
+    0 0 150px rgba(255, 165, 0, 0.3);
 }
 
 .navlist a.active{
@@ -277,7 +278,7 @@ a.btn:nth-child(2)::before{
     color: var(--hover-colors);
     border: 2px solid var(--hover-colors);
     transition: 0.6s;
-    box-shadow: 0 0 0.3rem #12f7ff;
+    box-shadow: 0 0 0.3rem #aa640f;;
     border-radius: 5px;
     position: relative;
     z-index: 1;
@@ -1028,7 +1029,7 @@ h2 {
     :root{
         --big-font:2.2rem;
         --norma-font:1.8rem;
-        --neon-box-shadow:0 0 .8rem #12f7ff;
+        --neon-box-shadow:0 0 .8rem #aa640f;;
         --h2-font:3rem;
 
     }

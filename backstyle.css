@@ -7,25 +7,23 @@
     text-decoration: none;
 }
 :root{
-    --text-color:#000000;
-    --hover-colors:#aa640f;
-    --hover-color:#91560e;
-    --bg-color:#F8F6F1;
-    --p-color:var(--text-color);
-    --secon-bg-color:#F1EEE4;
+    --text-color:#f5f5f5;
+    --hover-colors:#12f7ff;
+    --hover-color:#F4941C;
+    --bg-color:#000000;
+    --secon-bg-color:#292e33;
     --big-font:1.5rem;
     --norma-font:2rem;
-    --neon-box-shadow:0 0 .5rem #b5874f;
+    --neon-box-shadow:0 0 .5rem #12f7ff;
     --h2-font:3rem;
-    --font-neon-text-shadow: 0 0 10px rgba(255, 165, 0, 0.3),
-    0 0 20px rgba(255, 165, 0, 0.3),
-    0 0 30px rgba(255, 165, 0, 0.3),
-    0 0 40px rgba(255, 165, 0, 0.3),
-    0 0 70px rgba(255, 165, 0, 0.3),
-    0 0 80px rgba(255, 165, 0, 0.3),
-    0 0 100px rgba(255, 165, 0, 0.3),
-    0 0 150px rgba(255, 165, 0, 0.3);
-
+    --font-neon-text-shadow:0 0 10px rgba(18,247,255,0.3),
+    0 0 20px rgba(18,247,255,0.3),
+    0 0 30px rgba(18,247,255,0.3),
+    0 0 40px rgba(18,247,255,0.3),
+    0 0 70px rgba(18,247,255,0.3),
+    0 0 80px rgba(18,247,255,0.3),
+    0 0 100px rgba(18,247,255,0.3),
+    0 0 150px rgba(18,247,255,0.3);
     
 }
 
@@ -94,14 +92,14 @@ span{
 
 .navlist a:hover{
     color: var(--hover-color);
-    text-shadow: 0 0 10px rgba(255, 165, 0, 0.3),
-    0 0 20px rgba(255, 165, 0, 0.3),
-    0 0 30px rgba(255, 165, 0, 0.3),
-    0 0 40px rgba(255, 165, 0, 0.3),
-    0 0 70px rgba(255, 165, 0, 0.3),
-    0 0 80px rgba(255, 165, 0, 0.3),
-    0 0 100px rgba(255, 165, 0, 0.3),
-    0 0 150px rgba(255, 165, 0, 0.3);
+    text-shadow: 0 0 10px rgba(18,247,255,0.6),
+    0 0 20px rgba(18,247,255,0.6),
+    0 0 30px rgba(18,247,255,0.6),
+    0 0 40px rgba(18,247,255,0.6),
+    0 0 70px rgba(18,247,255,0.6),
+    0 0 80px rgba(18,247,255,0.6),
+    0 0 100px rgba(18,247,255,0.6),
+    0 0 150px rgba(18,247,255,0.6);
 }
 
 .navlist a.active{
@@ -177,7 +175,7 @@ section{
 }
 
 .home-content p{
-    color:var(--p-color);
+    color:#f5f5f5;
     line-height: 1.6;
 
 }
@@ -198,7 +196,7 @@ section{
 
 .info-box span {
     font-size: 0.9rem;
-    columns: var(--p-color);
+    columns: #bdbdbd;
 }
 
 .btn-box{
@@ -278,7 +276,7 @@ a.btn:nth-child(2)::before{
     color: var(--hover-colors);
     border: 2px solid var(--hover-colors);
     transition: 0.6s;
-    box-shadow: 0 0 0.3rem #aa640f;;
+    box-shadow: 0 0 0.3rem #12f7ff;
     border-radius: 5px;
     position: relative;
     z-index: 1;
@@ -347,7 +345,7 @@ a.btn:nth-child(2)::before{
     height: auto;
 }
 .about-content span{
-    color: var(--p-color);
+    color: #fdfdfdfd;
     font-size: .8rem;
     font-weight: 200;
     letter-spacing: 2px;
@@ -366,7 +364,7 @@ a.btn:nth-child(2)::before{
 }
 
 .about-content p{
-    color: var(--p-color);
+    color: #fdfdfdfd;
     font-weight: 300;
     margin-bottom: 1.5rem;
     text-align: justify;
@@ -398,7 +396,7 @@ a.btn:nth-child(2)::before{
 }
 
 .info-about2{
-    left: 76%;
+    left: 66%;
     top: 15%;
 }
 
@@ -439,7 +437,7 @@ a.btn:nth-child(2)::before{
 }
 
 .main-text span{
-    color: var(--p-color);
+    color: #fdfdfd;
     font-size: 0.8rem;
     font-weight: 200;
     letter-spacing: 2px;
@@ -498,7 +496,7 @@ a.btn:nth-child(2)::before{
     margin: .5rem 0 1.5rem 0;
     font-weight: 300;
     letter-spacing: 1px;
-    color: var(--p-color);
+    color: #bdbdbd;
     line-height: 1.6;
 }
 
@@ -621,7 +619,7 @@ a.btn:nth-child(2)::before{
 
 .box .text{
     text-align: center;
-    color: var(--p-color);
+    color: #fff;
     font-size: 1rem;
 }
 .box .text big{
@@ -1029,7 +1027,7 @@ h2 {
     :root{
         --big-font:2.2rem;
         --norma-font:1.8rem;
-        --neon-box-shadow:0 0 .8rem #aa640f;;
+        --neon-box-shadow:0 0 .8rem #12f7ff;
         --h2-font:3rem;
 
     }
