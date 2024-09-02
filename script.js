@@ -138,3 +138,19 @@ scrollBottom.forEach((el)=>observer.observe(el));
 
 const scrollTop= document.querySelectorAll('.scroll-top');
 scrollTop.forEach((el)=>observer.observe(el));
+
+// Get the current year
+const currentYear = new Date().getFullYear();
+
+// Calculate the years of experience
+const experienceYears = currentYear - 2022;
+
+// Update the span content with the calculated years
+document.getElementById("experience").textContent = experienceYears;
+
+
+
+// Calculate the years of experience
+const bankingYears = currentYear - 2023;
+// Update the span content with the calculated years
+document.getElementById("banking").textContent = bankingYears;
