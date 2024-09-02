@@ -335,6 +335,7 @@ a.btn:nth-child(2)::before{
     align-items: center;
     grid-gap: 2em;
     background: var(--bg-color);
+    margin-top: -15rem;
 }
 
 .about .img-about{
@@ -430,6 +431,7 @@ a.btn:nth-child(2)::before{
     text-align: center; 
     margin-bottom: 2rem;
     color: var(--hover-color);
+    margin-top: -11rem;
 }
 
 .main-text h2{
@@ -507,6 +509,7 @@ a.btn:nth-child(2)::before{
 
 .skills{
     background: var(--bg-color);
+    margin-top: -10rem;
 
 }
 
