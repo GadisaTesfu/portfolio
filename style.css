@@ -509,7 +509,7 @@ a.btn:nth-child(2)::before{
 
 .skills{
     background: var(--bg-color);
-    margin-top: -10rem;
+    /* margin-top: -10rem; */
 
 }
 
